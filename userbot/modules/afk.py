@@ -63,7 +63,7 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(f"** mengmodar**\n**lagi mengmodar**\
-        \n **"gara"** `{string}`")
+        \n **gara":** `{string}`")
     else:
         await afk_e.edit("**mengmodar**\n**lagi mengmodar**")
     if user.last_name:
