@@ -46,15 +46,15 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**★ PING ★**")
-    await pong.edit("**★✫ PING ★✫**")
-    await pong.edit("**★✫★ PING ★✫★**")
-    await pong.edit("**★✫★✫ PING ★✫★✫**")
+    await pong.edit("**BIM**")
+    await pong.edit("**BIM SALA**")
+    await pong.edit("**BIM SALA BIM**")
+    await pong.edit("**JADI APA**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**𖣘 PING** "
+    await pong.edit(f"**sokap** "
                     f"\n  ➥ `%sms` \n"
-                    f"**𖣘 LORD** "
+                    f"**si** "
                     f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
 
 
@@ -63,7 +63,7 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`Love Ping..............`")
+    await pong.edit("`bacot ih kamu`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**✣ PONG!**\n"
@@ -93,18 +93,18 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**𖣘**")
-    await pong.edit("**𖣘𖣘**")
-    await pong.edit("**𖣘𖣘𖣘**")
-    await pong.edit("**✦҈͜͡➳ PONG!**")
+    await pong.edit("**BIM**")
+    await pong.edit("**BIM SALA**")
+    await pong.edit("**BIM SALA BIM**")
+    await pong.edit("**JADI APA**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**♛ Lord Ping ♛**\n"
-                    f"❃ **Ping:** "
+    await pong.edit(f"**kiw**\n"
+                    f"❃ **𝙢𝙡𝙖𝙘𝙠𝙢𝙞𝙣𝙠:** "
                     f"`%sms` \n"
                     f"❃ **Uptime:** "
                     f"`{uptime}` \n"
-                    f"__**✦҈͜͡➳ My Lord:**__ `{ALIVE_NAME}`" % (duration))
+                    f"__**si:**__ `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
